@@ -1,5 +1,5 @@
-# 🎬 NLE Cloud Collaboration Guide  
-# 🎬 非线性剪辑软件云端协作入门指南  
+# NLE Cloud Collaboration Guide  
+# 非线性剪辑软件云端协作入门指南  
 
 ## 简介 | Introduction  
 这是一个面向新手的 **非线性剪辑（NLE）软件云端协作省流版教程合集**。  
@@ -13,7 +13,7 @@ All materials are based on personal understanding and experience — feel free t
 ---
 
 ## 当前内容 | Current Tutorials  
-- 📘 `DaVinci_Resolve_Cloud_Collaboration_Guide.md`  
+- `DaVinci_Resolve_Cloud_Collaboration_Guide.md`  
   > 从零开始使用 DaVinci Resolve 的 Cloud Collaboration 功能，覆盖单人同步、团队项目与 NAS 共享等场景。  
 
 （后续将补充 Adobe Premiere Pro 的云端共享教程）  
@@ -24,11 +24,9 @@ All materials are based on personal understanding and experience — feel free t
 ## 使用建议 | Usage Notes  
 - 本项目所有教程均采用简体中文与英文对照编写。  
 - 适合初学者、影视制作学生及远程协作团队参考。  
-- 欢迎通过 issue 或 pull request 提交修改与建议。  
 
 All tutorials are written in both Chinese and English.  
 Suitable for beginners, media students, and remote collaboration teams.  
-Contributions and feedback via issues or pull requests are highly encouraged.  
 
 ---
 
