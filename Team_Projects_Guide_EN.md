@@ -1,4 +1,4 @@
-# Adobe Premiere Pro Team Projects – Beginner’s Cloud Collaboration Guide
+# Adobe Team Projects – Beginner’s Cloud Collaboration Guide
 
 ## What Is Team Projects?
 Team Projects is an Adobe Creative Cloud feature that separates:
@@ -114,3 +114,4 @@ With clear version control, publishing, and conflict handling, your team can edi
 
 **Author:** Azuredusk026  
 **Last Updated:** 2025-11-02
+
