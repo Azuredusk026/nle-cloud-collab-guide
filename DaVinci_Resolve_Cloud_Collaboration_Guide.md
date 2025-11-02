@@ -3,13 +3,12 @@
 ## 写作初衷
 很多人学会了剪辑，却对「云端协作」望而却步。  
 Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）**，让团队在不同地方同时编辑同一个项目。  
-但对于初学者，这个功能常被误解为“难配置、容易出错”。  
 本教程面向完全新手，覆盖三类场景：  
 1. **单人跨设备同步项目（出差/旅游时）**  
 2. **多人协作同一项目**  
 3. **混合模式：用 NAS / 云盘 / 本地共享文件夹同步数据**  
 
-希望你能像用 GitHub Desktop 一样轻松上手 DaVinci Resolve 云协作。  
+希望你能够轻松上手 DaVinci Resolve 云协作。  
 
 ---
 
@@ -20,7 +19,7 @@ Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）
 三种主要模式：
 - **Local Database（本地）**：仅自己使用  
 - **Network Project Server（局域网共享）**：同一网络多台电脑协作  
-- **Blackmagic Cloud Project Library（云端托管）**：跨地区协作的正式云端版本  
+- **Blackmagic Cloud Project Library（云端托管）**：跨地区云端协作
 
 ---
 
@@ -47,7 +46,7 @@ Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）
 **优点：** 真正的云同步；不需手动传输文件。  
 **缺点：** 仅同步项目数据，不包含素材。  
 
-📦 **素材同步建议：**
+**素材同步建议：**
 - 把视频素材放在 Google Drive 或 NAS 中，同步到两个设备相同路径。  
 - 使用 **“Relink Media”** 功能快速重新链接素材。  
 
@@ -168,17 +167,17 @@ A: 改用本地缓存 + Proxy 代理文件，云端只同步项目。
 ---
 
 ## 9. 实用习惯清单
-✅ 每天导出 `.drp`  
-✅ 项目命名加版本号  
-✅ 素材文件夹统一命名  
-✅ 定期清理缓存  
-✅ 断网前确认 Cloud 同步完成  
+每天导出 `.drp`  
+项目命名加版本号  
+素材文件夹统一命名  
+定期清理缓存  
+断网前确认 Cloud 同步完成  
 
 ---
 
 ## 结语
 开始你的 Resolve 云协作之旅吧！  
-不论你是独剪短片的个人创作者，还是跨地区团队的影视项目成员，这套系统都能让协作更稳、更快、更安全。  
+不论你是个人创作者，还是跨地区团队项目成员，这套系统都能让协作更稳、更快、更安全。  
 
 **推荐阅读：**
 - [Blackmagic Cloud 官方指南](https://www.blackmagicdesign.com/products/davinciresolve/collaboration)  
@@ -189,3 +188,4 @@ A: 改用本地缓存 + Proxy 代理文件，云端只同步项目。
 
 **作者：Azuredusk026**  
 **更新时间：2025-10-12**
+
