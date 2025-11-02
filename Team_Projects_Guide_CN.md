@@ -1,4 +1,4 @@
-# Adobe Premiere Pro Team Projects 云协作新手完整教程
+# Adobe Team Projects 云协作新手完整教程
 
 ## 什么是 Team Projects？
 Team Projects 是 Adobe Creative Cloud 中的协作功能。  
@@ -114,3 +114,4 @@ Team Projects 是视频团队协作的核心解决方案。
 
 **作者：Azuredusk026**  
 **更新时间：2025-11-02**
+
