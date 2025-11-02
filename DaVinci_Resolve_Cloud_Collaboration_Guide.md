@@ -26,10 +26,10 @@ Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）
 ## 1. 准备工作
 1. 安装 **DaVinci Resolve 18 或以上版本**  
 2. 注册并登录 **Blackmagic Cloud**：[https://cloud.blackmagicdesign.com](https://cloud.blackmagicdesign.com)  
-3. 准备同步用的云盘或 NAS（任选一种）：  
-   - Google Drive / Dropbox / OneDrive（云盘同步）  
-   - Synology / QNAP（NAS 存储）  
-   - 或移动硬盘（离线备份）  
+3. 任选一种存储方式：  
+   - 云盘 - Google Drive / Dropbox / OneDrive  
+   - NAS 存储 - Synology（群晖）/ QNAP（威联通）  
+   - 移动硬盘
 
 ---
 
@@ -50,7 +50,7 @@ Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）
 - 把视频素材放在 Google Drive 或 NAS 中，同步到两个设备相同路径。  
 - 使用 **“Relink Media”** 功能快速重新链接素材。  
 
-### 方法二：使用云盘同步（离线玩家方案）
+### 方法二：使用云盘同步
 1. 在 A 电脑进入  
    `C:\Users\<用户名>\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Resolve Disk Database\Resolve Projects`  
    复制整个项目文件夹到你的云盘（例如 Dropbox）。  
@@ -63,7 +63,7 @@ Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）
 
 ## 3. 团队协作：多人同时剪辑同一项目
 ### 目标
-团队成员在不同地方实时编辑、调色、加特效。  
+团队成员在不同地方实时编辑、调色、加特效.
 
 ### 方法一：使用 Blackmagic Cloud Project Library（推荐）
 1. 管理员登录 [Blackmagic Cloud](https://cloud.blackmagicdesign.com)。  
@@ -116,10 +116,6 @@ Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）
 - 在 “Project Settings → Project Backups” 勾选自动保存。  
 - 可在 Project Manager 右键 → “Project Backups” 查看任意历史版本。  
 
-### 手动版本号命名习惯
-- “Film_Cut_v1”, “Film_Cut_v2”, “Film_Color_v1”。  
-- 结束前导出 `.drp` 文件备份到云盘。  
-
 ---
 
 ## 6. 不同设备传输与离线编辑
@@ -137,18 +133,7 @@ Blackmagic 在 DaVinci Resolve 18 引入的 **Cloud Collaboration（云协作）
 
 ---
 
-## 7. 团队项目管理建议
-| 任务 | 推荐工具 | 注意事项 |
-|------|-----------|----------|
-| 云端项目管理 | Blackmagic Cloud | 仅存储项目元数据，不包含素材 |
-| 素材同步 | Google Drive / Synology Drive / Resilio Sync | 确保文件夹结构一致 |
-| 版本记录 | Project Backups + 导出 .drp | 每人每日导出一份 |
-| 即时沟通 | Resolve 内聊天 / Discord | 记录讨论与修改时间 |
-| 权限分配 | Cloud Library 成员权限 | 仅管理员能删除项目 |
-
----
-
-## 8. 常见问题 FAQ
+## 7. 常见问题 FAQ
 **Q: 为什么项目打不开？**  
 A: 检查是否所有成员 Resolve 版本一致（建议都用最新稳定版）。  
 
@@ -166,15 +151,6 @@ A: 改用本地缓存 + Proxy 代理文件，云端只同步项目。
 
 ---
 
-## 9. 实用习惯清单
-每天导出 `.drp`  
-项目命名加版本号  
-素材文件夹统一命名  
-定期清理缓存  
-断网前确认 Cloud 同步完成  
-
----
-
 ## 结语
 开始你的 Resolve 云协作之旅吧！  
 不论你是个人创作者，还是跨地区团队项目成员，这套系统都能让协作更稳、更快、更安全。  
@@ -187,5 +163,6 @@ A: 改用本地缓存 + Proxy 代理文件，云端只同步项目。
 ---
 
 **作者：Azuredusk026**  
-**更新时间：2025-10-12**
+**更新时间：2025-11-2**
+
 
