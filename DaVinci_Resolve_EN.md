@@ -1,17 +1,5 @@
 # DaVinci Resolve Cloud Collaboration – Beginner’s Fast Guide
 
-## Purpose of This Guide
-Many editors can handle cutting, but “cloud collaboration” still sounds scary.  
-Since version 18, **DaVinci Resolve** has introduced **Cloud Collaboration**, which allows multiple users in different locations to work on the same project at the same time.  
-This guide is written for complete beginners and covers three common cases:  
-1. **Single-user cross-device editing**  
-2. **Team collaboration on one project**  
-3. **Hybrid setups using NAS, cloud storage, or shared folders**
-
-The goal is to help you get started easily and avoid the usual confusion.
-
----
-
 ## What Is DaVinci Resolve Cloud Collaboration?
 In short, it lets multiple users access the same **Project Library** simultaneously.  
 The project data (timelines, metadata, markers) is stored in a database, while media files are kept locally or on the cloud for each user.
@@ -147,3 +135,4 @@ A: Go to Project Settings → Relink Media → Choose correct folder.
 
 **Q: What if two people edit the same timeline?**  
 A: Resolve automatically locks Bins and Timelines; rig
+
